@@ -48,7 +48,7 @@ function returnMovies(url) {
 form.addEventListener("submit", (e) => {
     e.preventDefault();
     main.innerHTML = '';
-    const searchItem = query.value; // Use query instead of search
+    const searchItem = query.value;
     if (searchItem) {
         returnMovies(SEARCHAPI + searchItem);
         query.value = '';
