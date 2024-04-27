@@ -24,7 +24,8 @@ The platform is designed to be responsive, ensuring optimal viewing experience a
 To get started with Movies Hub:
 #### •	Clone this repository to your local machine: git clone/download zip.
 #### •	Extract the contents of the repository.
-#### •	Install the necessary dependencies by running pip install -r requirements.txt
+#### •	Install the necessary dependencies by running pip install python requests
+###  • Run in your local environment
 
 ## 3. Contribution Guidelines
 Contributions to Movies Hub are welcome! If you have any improvements, suggestions, or bug fixes, feel free to open an issue or submit a pull request following the contribution guidelines outlined in the repository.
