@@ -1,0 +1,58 @@
+{% load static %}
+{% block content %}
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Movies</title>
+    <link rel="stylesheet" href="{% static 'styles.css' %}" />
+  
+</head>
+<body>
+    <section>
+        <div class="topnavbar">
+        <a class="active" href="home">Movies Plug
+          <h5>Welcome to Movies empire<br></h5>  
+            <h5>The best place to watch movies</h5>   
+          <!--<div class="topnav">
+              <a href="wishlist">Wishlist</a>
+              <a href="Recently Watched">Recently Watched</a
+                                                            <a href="about">about</a>
+          </div>-->
+            </a>
+          
+            <div class="searchbox">
+                <form role="search" id="form">
+                    <input type="search" id="query" name="q" placeholder="Search..." autocomplete="on" />
+                </form>
+            </div>
+            
+        </div>
+        <div style="padding-left: 16px;">
+            <section id ="section">
+                <!--
+                 <h1>Popular Movies</h1> 
+                  <div id="movies">
+                     {% for movie in movies %}
+                          <div class="movie">
+                              {{ movie.title }}
+                              {{ movie.title }}
+                            <p>{{ movie.overview }}</p>
+                          </div>
+                      {% endfor %}
+                  </div>
+              -->
+            </section>
+        </div>
+    </section>
+  <footer class="footer hidden-print">
+      Copyright &copy; 2024 All rights reserved.
+      <br>
+      <p><span><i>Joseph Wambua Muindi</i></span></p>
+  </footer>
+  <script src="{% static 'script.js' %}"></script>
+</body>
+</html>
+{% endblock %}
