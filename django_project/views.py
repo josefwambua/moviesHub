@@ -13,15 +13,12 @@ def home(request):
 
 
 def about(request):
-  # Logic to fetch data or perform any other operations
   return render(request, 'about.html')
 
 
 def recently_watched(request):
-  # Logic to fetch data or perform any other operations
   return render(request, 'recently_watched.html')
 
 
 def wishlist(request):
-  # Logic to fetch data or perform any other operations
   return render(request, 'wishlist.html')
